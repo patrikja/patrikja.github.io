@@ -1,0 +1,20 @@
+name:                myblog
+version:             0.1.0.0
+synopsis:            Hakyll project template from stack
+description:         Please see README.md
+homepage:            https://github.com/patrikja/myblog#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Patrik Jansson
+maintainer:          patrik.ja@gmail.com
+copyright:           Copyright (c) 2016 Patrik Jansson
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable myblog
+  main-is:             site.hs
+  default-language:    Haskell2010
+  ghc-options:         -threaded
+  build-depends:       base == 4.*,
+                       hakyll == 4.7.*
