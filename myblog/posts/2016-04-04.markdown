@@ -1,0 +1,37 @@
+---
+title: Setting up an GitHub page using Hakyll
+---
+
+```shell
+git clone https://github.com/patrikja/patrikja.github.io
+```
+...
+
+Trying to follow this tutorial: https://jaspervdj.be/hakyll/tutorials/github-pages-tutorial.html
+
+```shell
+cd patrikja.github.io/
+cat > .gitignore
+git add .gitignore
+git commit -m "Ignoring some files (towards using Hakyll)"
+git push -u origin master
+# Setting up Hakyll (first editing ~/.stack/config.yaml)
+stack new myblog hakyll-template
+git checkout -b develop
+git add myblog/
+git commit -m "Testing Hakyll"
+git push
+cd myblog/    # This command was missing from the tutorial
+stack build   #  (... and this)
+stack exec myblog clean
+stack exec myblog build
+git fetch --all  ## Flag misspelled in the tutorial
+git checkout master
+cp -a _site/. .
+git add -A
+git commit -m "Publish example"
+git push origin master:master
+git checkout develop
+git branch -D master
+git stash pop
+```
