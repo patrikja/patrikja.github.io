@@ -1,6 +1,8 @@
 ---
-title: [Reproducibility, Proofs and Domain Specific Languages](http://www.cse.chalmers.se/~patrikj/talks/Jansson_Reproducibility_DSL.pdf)
+title: Reproducibility, Proofs and Domain Specific Languages
 ---
+
+# [Reproducibility, Proofs and Domain Specific Languages](http://www.cse.chalmers.se/~patrikj/talks/Jansson_Reproducibility_DSL.pdf)
 
 Today I gave an invited presentation at the
 [Alan Turing Institute](https://turing.ac.uk/)
@@ -19,10 +21,7 @@ The symposium brought together computer scientists, other researchers,
 librarians, publishers, data experts, etc. for two intensive days of
 talks and break-out sessions on different aspects of Reproducibility.
 
-The participant included a number of active tweeters so here is the twitter view of the symposium:
-
-https://twitter.com/search?q=%23ATIR%20since%3A2016-04-06%20until%3A2016-04-07&src=typd&lang=en-gb
-
-And here is me presenting a slide on the drama of Dee the Domain
-expert and Foo the Formaliser:
-https://twitter.com/jer_gib/status/717702262953492481 .
+The participant included a number of active tweeters so here is
+[the twitter view of the symposium days](https://twitter.com/search?q=%23ATIR%20since%3A2016-04-06%20until%3A2016-04-07&src=typd&lang=en-gb)
+and here is me presenting a slide on
+[the drama of Dee the Domain expert and Foo the Formaliser](https://twitter.com/jer_gib/status/717702262953492481).
